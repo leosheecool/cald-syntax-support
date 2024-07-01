@@ -3,7 +3,7 @@
     "displayName": "Cald Language Support",
     "description": "Provides syntax highlighting for Cald language.",
     "version": "1.0.0",
-    "publisher": "your-name",
+    "publisher": "Léo Levacher",
     "engines": {
         "vscode": "^1.50.0"
     },
