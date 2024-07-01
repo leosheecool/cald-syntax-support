@@ -22,7 +22,3 @@ Once installed, VSCode will automatically apply syntax highlighting and the cust
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.
-
-## License
-
-[MIT](LICENSE)
