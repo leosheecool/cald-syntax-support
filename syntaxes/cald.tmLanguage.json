@@ -1,0 +1,27 @@
+{
+    "fileTypes": ["cald"],
+    "name": "Cald",
+    "scopeName": "source.cald",
+    "patterns": [
+        {
+            "name": "comment.line.number-sign.cald",
+            "match": "#.*$"
+        },
+        {
+            "name": "keyword.control.cald",
+            "match": "\\b(bindings|extends|function|hang to|hook|ondraw|pmodel|view def)\\b"
+        },
+        {
+            "name": "keyword.operator.cald",
+            "match": "\\b(-&gt;|\\|;append|append view|asset|asset add|asset remove|create|create view|csp add|csp forbid|csp remove|debug|editor|else|else if|elseif|event|extract|extract media|extract node|extract taxonomy_term|extract user|for|hide|hide view|if|important|insert after|insert after view|insert before|insert before view|insert view|is|map|model|new|page|prepend|prepend view|redraw|redraw view|remove all|remove all view|remove view|replace|replace view|restricted to|return|send|send to|session|set|show|show view|state|switch|tag|unique|use|view|view ajax callback|view event|view is|view set|wait)\\b"
+        },
+        {
+            "name": "constant.language.cald",
+            "match": "\\b(!=|!==|%|\\*|\\+|\\+\\+|-|--|/|:|<|<<|<<=|<=|<=>|=|==|===|>|>=|\\?|\\?\\?|\\[|\\]|after|after view|and|as|asc|before|before view|break|cacheable|callback|continue|css|css base|default|default src|deferred|deferred css|deferred scss|desc|discarded|dynamic|font src|form action|frame ancestors|frame src|global|history|img src|in|in language|inlined css|inlined deferred css|inlined deferred scss|inlined scss|inside|js|js no defer|limit|media src|modify|not|not cacheable|not deferred|not discarded|not on hold|not unique|nullor|object src|on|on hold|or|profile|script src|scss|scss base|scss macro|scss variable|state_execution|style src|svg|to|to view|unique|when|with|xor|{|}|~|~=)\\b"
+        },
+        {
+            "name": "variable.language.cald",
+            "match": "\\b(&amp;|FALSE|NULL|TRUE|__base_url|__config|__event|__global|__inputs|__isInteractive|__is_ajax|__is_dynamic_processing|__is_onhold_processing|__is_page_processing|__is_pipe_processing|__is_production|__language|__local|__model|__page|__params|__parent|__pmid|__request|__session|__state|__stream|__unsafe_request|__user|__value|__view|false|null|true)\\b"
+        }
+    ]
+}

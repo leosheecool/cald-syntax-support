@@ -1,0 +1,37 @@
+{
+    "name": "cald-language-support",
+    "displayName": "Cald Language Support",
+    "description": "Provides syntax highlighting for Cald language.",
+    "version": "1.0.0",
+    "publisher": "your-name",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "cald",
+                "aliases": ["Cald", "cald"],
+                "extensions": [".cald"],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "cald",
+                "scopeName": "source.cald",
+                "path": "./syntaxes/cald.tmLanguage.json"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Cald Color Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cald-color-theme.json"
+            }
+        ]
+    }
+}

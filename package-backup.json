@@ -1,0 +1,35 @@
+{
+    "name": "cald-syntax",
+    "displayName": "Cald Syntax Highlighting",
+    "description": "Syntax highlighting for CALD files",
+    "version": "0.0.1",
+    "publisher": "your-name",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "cald",
+                "aliases": [
+                    "Cald",
+                    "cald"
+                ],
+                "extensions": [
+                    ".cald"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "cald",
+                "scopeName": "source.cald",
+                "path": "./syntaxes/cald.tmLanguage.json"
+            }
+        ]
+    }
+}
